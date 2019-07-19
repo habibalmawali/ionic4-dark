@@ -1,4 +1,4 @@
-# Dev. Lab UI 1 - 2019 Design Trend Project.
+# Dev. Lab Ionic 4 Dark UI.
 
 ## Developed Using:
 <a href="https://ionicframework.com/">Ionic Framework V4</a>
