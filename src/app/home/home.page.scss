@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+
+ion-toolbar, ion-content, ion-button, ion-label, ion-input, ion-card {
+    font-family: 'Montserrat' !important;
+}
+
+ion-label {
+    --color: rgba(24,39,74,.88) !important;
+    font-size: 14px !important;
+    letter-spacing: 0 !important;
+    word-spacing: 0 !important;
+}
+
+ion-toolbar {
+    --opacity: 0;
+}
+
+ion-content {
+    --background: linear-gradient(90deg, rgba(24,39,74,1) 0%, rgba(17,24,53,1) 100%);
+    --color: #FFFFFF;
+}
+
+
+ion-item {
+    --background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,.25) 100%);
+    border-radius: 40px;
+    --highlight-background: none;
+}
+
+
+ion-card {
+    --color: rgba(24,39,74,1);
+    background: linear-gradient(45deg, rgba(230,198,159,.8) 0%, rgba(231,185,125,1) 100%);
+    border-radius: 20px;
+    padding: 8px 0;
+    text-align: left;
+
+    ion-card-content {
+        h2 {
+            font-size: 20px;
+            font-weight: bolder;
+            margin-bottom: 12px;
+        }
+    }
+
+}
+
+ion-slides {
+    width: 100% !important;
+    padding: 40px !important;
+}
+
+.swiper-slide {
+    width: 100% !important;
+    ion-card {
+        width: 90% !important;
+        position: relative;
+        right: 30px;
+    }
+}
+
+    .swiper-slide-next {
+        ion-card {
+            position: relative;
+            right: 40px;
+            width: 90% !important;
+        }
+    }
+
+    ion-card {
+        transition: .8s all !important;
+    }

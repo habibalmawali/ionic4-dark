@@ -1,0 +1,86 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-title>
+      Dev. Lab Dark UI
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen>
+  <div class="ion-padding" style="padding-bottom: 0">
+
+    <br>
+
+    <ion-card>
+      <ion-card-content>
+
+        <h2>Hi There,</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+
+      </ion-card-content>
+    </ion-card>
+
+  </div>
+
+      <ion-slides [options]="slideOpts">
+        <ion-slide>
+          <ion-card color="tertiary">
+            <ion-card-content>
+
+              <h2>Hello,</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+
+            </ion-card-content>
+          </ion-card>
+        </ion-slide>
+        <ion-slide>
+          <ion-card color="primary">
+            <ion-card-content>
+
+              <h2>Welcome,</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+
+            </ion-card-content>
+          </ion-card>
+        </ion-slide>
+        <ion-slide>
+          <ion-card color="danger">
+            <ion-card-content>
+
+              <h2>Get Started,</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+
+            </ion-card-content>
+          </ion-card>
+        </ion-slide>
+      </ion-slides>
+
+
+
+      <div class="ion-padding" style="padding-top: 0">
+        <div class="ion-padding" style="padding-top: 0">
+
+          <p>Subscribe Now:</p>
+
+          <ion-item>
+            <ion-label>Your Email:</ion-label>
+            <ion-input [(ngModel)]="email"></ion-input>
+
+            <ion-button shape="round" *ngIf="email">
+              Proceed
+            </ion-button>
+          </ion-item>
+
+
+        </div>
+      </div>
+
+</ion-content>
